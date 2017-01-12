@@ -1,0 +1,399 @@
+[
+  {
+    "Category": 1,
+    "Type": 1,
+    "Subtype": 1,
+    "Description": "';' expected",
+    "Regex": "';'.+expected[\\s\\S]*"
+  },
+  {
+    "Category": 1,
+    "Type": 1,
+    "Subtype": 2,
+    "Description": "'(' expected",
+    "Regex": "'\\('.+expected[\\s\\S]*"
+  },
+  {
+    "Category": 1,
+    "Type": 1,
+    "Subtype": 3,
+    "Description": "')' expected",
+    "Regex": "'\\)'.+expected[\\s\\S]*"
+  },
+  {
+    "Category": 1,
+    "Type": 1,
+    "Subtype": 4,
+    "Description": "<identifier> expected",
+    "Regex": "<identifier>.+expected[\\s\\S]*"
+  },
+  {
+    "Category": 1,
+    "Type": 1,
+    "Subtype": 5,
+    "Description": "'{' expected",
+    "Regex": "'\\{'.+expected[\\s\\S]*"
+  },
+  {
+    "Category": 1,
+    "Type": 1,
+    "Subtype": 6,
+    "Description": "'}' expected",
+    "Regex": "'\\}'.+expected[\\s\\S]*"
+  },
+  {
+    "Category": 1,
+    "Type": 1,
+    "Subtype": 7,
+    "Description": "class, interface, or enum expected",
+    "Regex": "class, interface, or enum.+expected[\\s\\S]*"
+  },
+  {
+    "Category": 1,
+    "Type": 1,
+    "Subtype": 8,
+    "Description": "'.class' expected",
+    "Regex": "'\\.class'.+expected[\\s\\S]*"
+  },
+  {
+    "Category": 1,
+    "Type": 1,
+    "Subtype": 9,
+    "Description": "'[' expected",
+    "Regex": "'\\['.+expected[\\s\\S]*"
+  },
+  {
+    "Category": 1,
+    "Type": 1,
+    "Subtype": 10,
+    "Description": "']' expected",
+    "Regex": "'\\]'.+expected[\\s\\S]*"
+  },
+  {
+    "Category": 1,
+    "Type": 1,
+    "Subtype": 11,
+    "Description": "< expected",
+    "Regex": "<.+expected[\\s\\S]*"
+  },
+  {
+    "Category": 1,
+    "Type": 1,
+    "Subtype": 12,
+    "Description": "> expected",
+    "Regex": ">.+expected[\\s\\S]*"
+  },
+  {
+    "Category": 1,
+    "Type": 1,
+    "Subtype": 13,
+    "Description": "-> expected",
+    "Regex": "->.+expected[\\s\\S]*"
+  },
+  {
+    "Category": 1,
+    "Type": 1,
+    "Subtype": 14,
+    "Description": ": expected",
+    "Regex": ":.+expected[\\s\\S]*"
+  },
+  {
+    "Category": 1,
+    "Type": 1,
+    "Subtype": 15,
+    "Description": "while expected",
+    "Regex": "while.+expected[\\s\\S]*"
+  },
+  {
+    "Category": 1,
+    "Type": 1,
+    "Subtype": 16,
+    "Description": "'.' expected",
+    "Regex": "'\\.'.+expected[\\s\\S]*"
+  },
+  {
+    "Category": 1,
+    "Type": 1,
+    "Subtype": 17,
+    "Description": "class expected",
+    "Regex": "class.+expected[\\s\\S]*"
+  },
+  {
+    "Category": 1,
+    "Type": 1,
+    "Subtype": 18,
+    "Description": "case, default, or '}' expected",
+    "Regex": "case, default, or '\\}'.+expected[\\s\\S]*"
+  },
+  {
+    "Category": 1,
+    "Type": 1,
+    "Subtype": 19,
+    "Description": "= expected",
+    "Regex": "=.+expected[\\s\\S]*"
+  },
+  {
+    "Category": 1,
+    "Type": 1,
+    "Subtype": 20,
+    "Description": "',', '}', or ';' expected",
+    "Regex": "',', '\\}', or ';'.+expected[\\s\\S]*"
+  },
+  {
+    "Category": 1,
+    "Type": 2,
+    "Description": "unclosed string literal",
+    "Regex": "unclosed string literal[\\s\\S]*"
+  },
+  {
+    "Category": 1,
+    "Type": 3,
+    "Description": "illegal start of expression",
+    "Regex": "illegal start of expression[\\s\\S]*"
+  },
+  {
+    "Category": 1,
+    "Type": 4,
+    "Description": "not a statement",
+    "Regex": "not a statement[\\s\\S]*"
+  },
+  {
+    "Category": 2,
+    "Type": 1,
+    "Subtype": 1,
+    "Description": "cannot find symbol - variable",
+    "Regex": "cannot find symbol -[ ]*variable[\\s\\S]*"
+  },
+  {
+    "Category": 2,
+    "Type": 1,
+    "Subtype": 2,
+    "Description": "cannot find symbol - class",
+    "Regex": "cannot find symbol -[ ]*class[\\s\\S]*"
+  },
+  {
+    "Category": 2,
+    "Type": 1,
+    "Subtype": 3,
+    "Description": "cannot find symbol - method",
+    "Regex": "cannot find symbol -[ ]*method[\\s\\S]*"
+  },
+  {
+    "Category": 2,
+    "Type": 1,
+    "Subtype": 4,
+    "Description": "cannot find symbol - constructor",
+    "Regex": "cannot find symbol -[ ]*constructor[\\s\\S]*"
+  },
+  {
+    "Category": 2,
+    "Type": 2,
+    "Subtype": 1,
+    "Description": "variable is already defined in method",
+    "Regex": "variable.+is already defined in method[\\s\\S]*"
+  },
+  {
+    "Category": 2,
+    "Type": 2,
+    "Subtype": 2,
+    "Description": "variable is already defined in constructor",
+    "Regex": "variable.+is already defined in constructor[\\s\\S]*"
+  },
+  {
+    "Category": 2,
+    "Type": 2,
+    "Subtype": 3,
+    "Description": "variable is already defined in class",
+    "Regex": "variable.+is already defined in class[\\s\\S]*"
+  },
+  {
+    "Category": 2,
+    "Type": 2,
+    "Subtype": 4,
+    "Description": "variable is already defined in instance initializer of class",
+    "Regex": "variable.+is already defined in instance initializer of class[\\s\\S]*"
+  },
+  {
+    "Category": 2,
+    "Type": 2,
+    "Subtype": 5,
+    "Description": "method is already defined in class",
+    "Regex": "method.+is already defined in class[\\s\\S]*"
+  },
+  {
+    "Category": 2,
+    "Type": 2,
+    "Subtype": 6,
+    "Description": "constructor is already defined in class",
+    "Regex": "constructor.+is already defined in class[\\s\\S]*"
+  },
+  {
+    "Category": 2,
+    "Type": 2,
+    "Subtype": 7,
+    "Description": "class is already defined in package",
+    "Regex": "class.+is already defined in package[\\s\\S]*"
+  },
+  {
+    "Category": 2,
+    "Type": 2,
+    "Subtype": 8,
+    "Description": "interface is already defined in package",
+    "Regex": "interface.+is already defined in package[\\s\\S]*"
+  },
+  {
+    "Category": 2,
+    "Type": 2,
+    "Subtype": 9,
+    "Description": "... is already defined in this compilation unit",
+    "Regex": ".+is already defined in this compilation unit[\\s\\S]*"
+  },
+  {
+    "Category": 2,
+    "Type": 2,
+    "Subtype": 10,
+    "Description": "... is already defined in ...() (variable defined in method or constructor)",
+    "Regex": ".+is already defined in.+\\(.*\\)[\\s\\S]*"
+  },
+  {
+    "Category": 2,
+    "Type": 2,
+    "Subtype": 11,
+    "Description": "...() is already defined in ... (method or constructor defined in class or package)",
+    "Regex": ".+\\(.*\\).+is already defined in[\\s\\S]*"
+  },
+  {
+    "Category": 2,
+    "Type": 2,
+    "Subtype": 12,
+    "Description": "... is already defined in ... (variable defined in class or package)",
+    "Regex": ".+is already defined in[\\s\\S]*"
+  },
+  {
+    "Category": 2,
+    "Type": 3,
+    "Description": "array required but ... found",
+    "Regex": "array required, but .+ found[\\s\\S]*"
+  },
+  {
+    "Category": 2,
+    "Type": 4,
+    "Description": "... has private access in ...",
+    "Regex": ".+ has private access in [\\s\\S]*"
+  },
+  {
+    "Category": 3,
+    "Type": 1,
+    "Description": "variable ... might not have been initialized",
+    "Regex": "variable .+ might not have been initialized[\\s\\S]*"
+  },
+  {
+    "Category": 3,
+    "Type": 2,
+    "Subtype": 1,
+    "Description": "method in class cannot be applied to ...",
+    "Regex": "method.+in class.+cannot be applied to[\\s\\S]*"
+  },
+  {
+    "Category": 3,
+    "Type": 2,
+    "Subtype": 2,
+    "Description": "constructor in class cannot be applied to ...",
+    "Regex": "constructor.+in class.+cannot be applied to[\\s\\S]*"
+  },
+  {
+    "Category": 3,
+    "Type": 2,
+    "Subtype": 3,
+    "Description": "method in interface cannot be applied to ...",
+    "Regex": "method.+in interface.+cannot be applied to[\\s\\S]*"
+  },
+  {
+    "Category": 3,
+    "Type": 2,
+    "Subtype": 4,
+    "Description": "constructor in enum cannot be applied to ...",
+    "Regex": "constructor.+in enum.+cannot be applied to[\\s\\S]*"
+  },
+  {
+    "Category": 3,
+    "Type": 2,
+    "Subtype": 5,
+    "Description": "method in enum cannot be applied to ...",
+    "Regex": "method.+in enum.+cannot be applied to[\\s\\S]*"
+  },
+  {
+    "Category": 3,
+    "Type": 3,
+    "Subtype": 1,
+    "Description": "operator ... cannot be applied to ...(bad types for binary operator)",
+    "Regex": "bad operand types for binary operator[\\s\\S]*"
+  },
+  {
+    "Category": 3,
+    "Type": 3,
+    "Subtype": 2,
+    "Description": "operator ... cannot be applied to ...(bad type for unary operator)",
+    "Regex": "bad operand type.+for unary operator[\\s\\S]*"
+  },
+  {
+    "Category": 3,
+    "Type": 4,
+    "Description": "possible loss of precision",
+    "Regex": "possible loss of precision[\\s\\S]*"
+  },
+  {
+    "Category": 3,
+    "Type": 5,
+    "Description": "incompatible types",
+    "Regex": "incompatible types[\\s\\S]*"
+  },
+  {
+    "Category": 3,
+    "Type": 6,
+    "Description": "inconvertible types",
+    "Regex": "inconvertible types[\\s\\S]*"
+  },
+  {
+    "Category": 4,
+    "Type": 1,
+    "Description": "missing return statement",
+    "Regex": "missing return statement[\\s\\S]*"
+  },
+  {
+    "Category": 4,
+    "Type": 2,
+    "Description": "missing return value",
+    "Regex": "missing return value[\\s\\S]*"
+  },
+  {
+    "Category": 4,
+    "Type": 3,
+    "Description": "cannot return a value from method whose result type is void",
+    "Regex": "cannot return a value from method whose result type is void[\\s\\S]*"
+  },
+  {
+    "Category": 4,
+    "Type": 4,
+    "Description": "invalid method declaration; return type required",
+    "Regex": "invalid method declaration; return type required[\\s\\S]*"
+  },
+  {
+    "Category": 4,
+    "Type": 5,
+    "Description": "unreachable statement",
+    "Regex": "unreachable statement[\\s\\S]*"
+  },
+  {
+    "Category": 5,
+    "Type": 1,
+    "Description": "non-static variable cannot be referenced from a static context",
+    "Regex": "non-static variable .+ cannot be referenced from a static context[\\s\\S]*"
+  },
+  {
+    "Category": 5,
+    "Type": 2,
+    "Description": "non-static method cannot be referenced from a static context",
+    "Regex": "non-static method .+ cannot be referenced from a static context[\\s\\S]*"
+  }
+]

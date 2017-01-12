@@ -1,0 +1,860 @@
+[
+  {
+    "Category": 6,
+    "Type": 1,
+    "Description": "... uses unchecked or unsafe operations.",
+    "Regex": ".+ uses unchecked or unsafe operations.[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 2,
+    "Description": "illegal character",
+    "Regex": "illegal character: .+[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 3,
+    "Description": "no suitable constructor found for ...",
+    "Regex": "no suitable constructor found for .+[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 4,
+    "Description": "no suitable method found for ...",
+    "Regex": "no suitable method found for .+[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 5,
+    "Description": "class ... is public, should be declared in a file named ....java",
+    "Regex": "class .+ is public, should be declared in a file named .+\\.java[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 6,
+    "Description": "... in ... has been deprecated",
+    "Regex": ".+ in .+ has been deprecated[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 7,
+    "Description": "incomparable types",
+    "Regex": "incomparable types: .+ and .+[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 8,
+    "Description": "array dimension missing",
+    "Regex": "array dimension missing[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 9,
+    "Description": "... is not abstract and does not override abstract method ... in ...",
+    "Regex": ".+ is not abstract and does not override abstract method .+ in .+[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 10,
+    "Description": "... is not public in ...; cannot be accessed from outside package",
+    "Regex": ".+ is not public in .+; cannot be accessed from outside package[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 11,
+    "Description": "unreported exception ...; must be caught or declared to be thrown",
+    "Regex": "unreported exception .+; must be caught or declared to be thrown[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 12,
+    "Description": "call to super must be first statement in constructor",
+    "Regex": "call to super must be first statement in constructor[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 13,
+    "Description": "package ... does not exist",
+    "Regex": "package .+ does not exist[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 14,
+    "Description": "unexpected type",
+    "Regex": "unexpected type[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 15,
+    "Description": "... cannot be dereferenced",
+    "Regex": ".+ cannot be dereferenced[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 16,
+    "Description": "... in ... cannot implement ... in ...;overriding method is static",
+    "Regex": ".+ in .+ cannot implement .+ in .+[; \\n]*overriding method is static[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 17,
+    "Description": "variable declaration not allowed here",
+    "Regex": "variable declaration not allowed here[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 18,
+    "Description": "illegal escape character",
+    "Regex": "illegal escape character[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 19,
+    "Description": "... in ... cannot implement ... in ...;attempting to assign weaker access privileges; was public",
+    "Regex": ".+ in .+ cannot implement .+ in .+\\n[ ]*attempting to assign weaker access privileges; was public[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 20,
+    "Description": "modifier static not allowed here",
+    "Regex": "modifier static not allowed here[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 21,
+    "Description": "method ... in interface ... cannot be applied to given types",
+    "Regex": "method .+ in interface .+ cannot be applied to given types;[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 22,
+    "Description": "modifier private not allowed here",
+    "Regex": "modifier private not allowed here[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 23,
+    "Description": "integer number too large: ...",
+    "Regex": "integer number too large: [\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 24,
+    "Description": "reached end of file while parsing",
+    "Regex": "reached end of file while parsing[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 25,
+    "Description": "illegal start of statement",
+    "Regex": "illegal start of statement[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 26,
+    "Description": "modifier public not allowed here",
+    "Regex": "modifier public not allowed here[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 27,
+    "Description": "'else' without 'if'",
+    "Regex": "'else' without 'if'[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 28,
+    "Description": "duplicate class: ...",
+    "Regex": "duplicate class: [\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 29,
+    "Description": "'_' used as an identifier",
+    "Regex": "'_' used as an identifier[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 30,
+    "Description": "'this' is allowed as the parameter name for the receiver type only, which has to be the first parameter",
+    "Regex": ".+'this' is allowed as the parameter name for the receiver type only, which has to be the first parameter[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 31,
+    "Description": "'try' without 'catch', 'finally' or resource declarations",
+    "Regex": "'try' without 'catch', 'finally' or resource declarations[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 32,
+    "Description": "duplicate default label",
+    "Regex": "duplicate default label[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 33,
+    "Description": "break outside switch or loop",
+    "Regex": "break outside switch or loop[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 34,
+    "Description": "duplicate case label",
+    "Regex": "duplicate case label[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 35,
+    "Description": "unmappable character for encoding UTF-8",
+    "Regex": "unmappable character for encoding UTF-8[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 36,
+    "Description": "... is abstract; cannot be instantiated",
+    "Regex": ".+ is abstract; cannot be instantiated[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 37,
+    "Description": "orphaned case",
+    "Regex": "orphaned case[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 38,
+    "Description": "'void' type not allowed here",
+    "Regex": "'void' type not allowed here[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 39,
+    "Description": "reference to ... is ambiguous",
+    "Regex": "reference to .+ is ambiguous[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 40,
+    "Description": "interface abstract methods cannot have body",
+    "Regex": "interface abstract methods cannot have body[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 41,
+    "Description": "... is internal proprietary API and may be removed in a future release",
+    "Regex": ".+ is internal proprietary API and may be removed in a future release[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 42,
+    "Description": "exception ... is never thrown in body of corresponding try statement",
+    "Regex": "exception .+ is never thrown in body of corresponding try statement[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 43,
+    "Description": "cannot assign a value to final variable",
+    "Regex": "cannot assign a value to final variable[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 44,
+    "Description": "unclosed character literal",
+    "Regex": "unclosed character literal[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 45,
+    "Description": "'catch' without 'try'",
+    "Regex": "'catch' without 'try'[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 46,
+    "Description": "return outside method",
+    "Regex": "return outside method[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 47,
+    "Description": "missing method body, or declare abstract",
+    "Regex": "missing method body, or declare abstract[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 48,
+    "Description": "cyclic inheritance involving ...",
+    "Regex": "cyclic inheritance involving[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 49,
+    "Description": "operator ... cannot be applied to ...",
+    "Regex": "operator .+ cannot be applied to [\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 50,
+    "Description": "bad initializer for for-loop",
+    "Regex": "bad initializer for for-loop[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 51,
+    "Description": "unclosed comment",
+    "Regex": "unclosed comment[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 52,
+    "Description": "for-each not applicable to expression type",
+    "Regex": "for-each not applicable to expression type[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 53,
+    "Description": "... in ... cannot override ... in ...",
+    "Regex": ".+ in .+ cannot override .+ in [\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 54,
+    "Description": "illegal '.'",
+    "Regex": "illegal '.'[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 55,
+    "Description": "empty character literal",
+    "Regex": "empty character literal[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 56,
+    "Description": "illegal initializer for ...",
+    "Regex": "illegal initializer for [\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 57,
+    "Description": "abstract methods cannot have a body",
+    "Regex": "abstract methods cannot have a body[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 58,
+    "Description": "illegal line end in character literal",
+    "Regex": "illegal line end in character literal[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 59,
+    "Description": "illegal start of type",
+    "Regex": "illegal start of type[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 60,
+    "Description": "Some input files use unchecked or unsafe operations.",
+    "Regex": "Some input files use unchecked or unsafe operations\\.[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 61,
+    "Description": "method does not override or implement a method from a supertype",
+    "Regex": "method does not override or implement a method from a supertype[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 62,
+    "Description": "hexadecimal numbers must contain at least one hexadecimal digit",
+    "Regex": "hexadecimal numbers must contain at least one hexadecimal digit[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 63,
+    "Description": "... has protected access in ...",
+    "Regex": ".+ has protected access in .+[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 64,
+    "Description": "constructor ... in enum ... cannot be applied to given types",
+    "Regex": "constructor .+ in enum .+ cannot be applied to given types;[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 65,
+    "Description": "Illegal static declaration in inner class ...;modifier 'static' is only allowed in constant variable declarations",
+    "Regex": "Illegal static declaration in inner class .+[ \\n]*modifier 'static' is only allowed in constant variable declarations[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 66,
+    "Description": "self-reference in initializer",
+    "Regex": "self-reference in initializer[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 67,
+    "Description": "error while writing ...: (Access is denied)",
+    "Regex": "error while writing .+: .+(Access is denied)[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 68,
+    "Description": "cannot declare both ... and ... in ...",
+    "Regex": "cannot declare both .+ and .+ in .+[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 69,
+    "Description": "unmappable character for encoding windows-1252",
+    "Regex": "unmappable character for encoding windows-1252[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 70,
+    "Description": "... in ... cannot be applied to ...",
+    "Regex": ".+ in .+ cannot be applied to .+[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 71,
+    "Description": "cannot access Location",
+    "Regex": "cannot access Location[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 72,
+    "Description": "cannot access ...",
+    "Regex": "cannot access [\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 73,
+    "Description": "undefined label",
+    "Regex": "undefined label[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 74,
+    "Description": "cannot inherit from final ...",
+    "Regex": "cannot inherit from final .+[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 75,
+    "Description": "not a loop label",
+    "Regex": "not a loop label[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 76,
+    "Description": "non-static type variable ... cannot be referenced from a static context",
+    "Regex": "non-static type variable .+ cannot be referenced from a static context[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 77,
+    "Description": "variable ... not initialized in the default constructor",
+    "Regex": "variable .+ not initialized in the default constructor[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 78,
+    "Description": "foreach not applicable to expression type",
+    "Regex": "foreach not applicable to expression type[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 79,
+    "Description": "cannot reference ... before supertype constructor has been called",
+    "Regex": "cannot reference .+ before supertype constructor has been called[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 80,
+    "Description": "modifier private,static not allowed here",
+    "Regex": "modifier private,static not allowed here[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 81,
+    "Description": "... in ... cannot implement ... in ...",
+    "Regex": ".+ in .+ cannot implement .+ in [\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 82,
+    "Description": "variable ... might already have been assigned",
+    "Regex": "variable .+ might already have been assigned[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 83,
+    "Description": "error reading",
+    "Regex": "error reading[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 84,
+    "Description": "local variables referenced from an inner class must be final or effectively final",
+    "Regex": "local variables referenced from an inner class must be final or effectively final[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 85,
+    "Description": "type ... does not take parameters",
+    "Regex": "type .+ does not take parameters[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 86,
+    "Description": "variable ... might be assigned in loop",
+    "Regex": "variable .+ might be assigned in loop[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 87,
+    "Description": "unmappable character for encoding US-ASCII",
+    "Regex": "unmappable character for encoding US-ASCII[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 88,
+    "Description": "constant expression required",
+    "Regex": "constant expression required[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 89,
+    "Description": "orphaned default",
+    "Regex": "orphaned default[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 90,
+    "Description": "internal error; cannot instantiate ... at ... to ...",
+    "Regex": "internal error; cannot instantiate[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 91,
+    "Description": "modifier protected not allowed here",
+    "Regex": "modifier protected not allowed here[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 92,
+    "Description": "local variable ... is accessed from within inner class; needs to be declared final",
+    "Regex": "local variable .+ is accessed from within inner class; needs to be declared final[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 93,
+    "Description": "error while writing ...: ... (Permission denied)",
+    "Regex": "error while writing .+: .+ \\(Permission denied\\)[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 94,
+    "Description": "static import only from classes and interfaces",
+    "Regex": "static import only from classes and interfaces[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 95,
+    "Description": "the receiver type does not match the enclosing class type",
+    "Regex": "the receiver type does not match the enclosing class type[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 96,
+    "Description": "inner classes cannot have static declarations",
+    "Regex": "inner classes cannot have static declarations[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 97,
+    "Description": "illegal combination of modifiers",
+    "Regex": "illegal combination of modifiers[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 98,
+    "Description": "modifier final not allowed here",
+    "Regex": "modifier final not allowed here[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 99,
+    "Description": "generic array creation",
+    "Regex": "generic array creation[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 100,
+    "Description": "illegal forward reference",
+    "Regex": "illegal forward reference[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 101,
+    "Description": "an enum switch case label must be the unqualified name of an enumeration constant",
+    "Regex": "an enum switch case label must be the unqualified name of an enumeration constant[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 102,
+    "Description": "recursive constructor invocation",
+    "Regex": "recursive constructor invocation[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 103,
+    "Description": "wrong number of type arguments",
+    "Regex": "wrong number of type arguments[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 104,
+    "Description": "'finally' without 'try'",
+    "Regex": "'finally' without 'try'[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 105,
+    "Description": "call to this must be first statement in constructor",
+    "Regex": "call to this must be first statement in constructor[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 106,
+    "Description": "repeated modifier",
+    "Regex": "repeated modifier[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 107,
+    "Description": "interface methods cannot have body",
+    "Regex": "interface methods cannot have body[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 108,
+    "Description": "enum types may not be instantiated",
+    "Regex": "enum types may not be instantiated[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 109,
+    "Description": "name clash",
+    "Regex": "name clash[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 110,
+    "Description": "illegal qualifier; ... is not an inner class",
+    "Regex": "illegal qualifier[; \\n]*.+ is not an inner class[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 111,
+    "Description": "label ... already in use",
+    "Regex": "label .+ already in use[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 112,
+    "Description": "modifier enum not allowed here",
+    "Regex": "modifier enum not allowed here[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 113,
+    "Description": "illegal underscore",
+    "Regex": "illegal underscore[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 114,
+    "Description": "enum types must not be local",
+    "Regex": "enum types must not be local[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 115,
+    "Description": "exception ... has already been caught",
+    "Regex": "exception .+ has already been caught[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 116,
+    "Description": "modifier abstract not allowed here",
+    "Regex": "modifier abstract not allowed here[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 117,
+    "Description": "malformed floating point literal",
+    "Regex": "malformed floating point literal[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 118,
+    "Description": "auto-closeable resource ... may not be assigned",
+    "Regex": "auto-closeable resource .+ may not be assigned[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 119,
+    "Description": "continue outside of loop",
+    "Regex": "continue outside of loop[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 120,
+    "Description": "illegal unicode escape",
+    "Regex": "illegal unicode escape[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 121,
+    "Description": "constant string expression required",
+    "Regex": "constant string expression required[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 122,
+    "Description": "'try' without 'catch' or 'finally'",
+    "Regex": "'try' without 'catch' or 'finally'[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 123,
+    "Description": "error: error reading ...; cannot read zip file",
+    "Regex": "error: error reading .+ cannot read zip file[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 124,
+    "Description": "error while writing ... (The process cannot access the file because it is being used by another process)",
+    "Regex": "error while writing .+ (The process cannot access the file because it is being used by another process)[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 125,
+    "Description": "the receiver name does not match the enclosing class type",
+    "Regex": "the receiver name does not match the enclosing class type[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 126,
+    "Description": "varargs notation not allowed on receiver parameter",
+    "Regex": "varargs notation not allowed on receiver parameter[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 127,
+    "Description": "annotation type not applicable to this kind of declaration",
+    "Regex": "annotation type not applicable to this kind of declaration[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 128,
+    "Description": "Alternatives in a multi-catch statement cannot be related by subclassing",
+    "Regex": "Alternatives in a multi-catch statement cannot be related by subclassing[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 129,
+    "Description": "as of release 1.4, 'assert' is a keyword, and may not be used as an identifier",
+    "Regex": "as of release 1.4, 'assert' is a keyword, and may not be used as an identifier[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 130,
+    "Description": "as of release 5, 'enum' is a keyword, and may not be used as an identifier",
+    "Regex": "as of release 5, 'enum' is a keyword, and may not be used as an identifier[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 131,
+    "Description": "an enclosing instance that contains Solver.SearchNote.ByPriority is required",
+    "Regex": "an enclosing instance that contains .+ is required[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 132,
+    "Description": "no interface expected here",
+    "Regex": "no interface expected here[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 133,
+    "Description": "interface expected here",
+    "Regex": "interface expected here[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 134,
+    "Description": "lambda expression not expected here",
+    "Regex": "lambda expression not expected here[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 135,
+    "Description": "binary numbers must contain at least one binary digit",
+    "Regex": "binary numbers must contain at least one binary digit[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 136,
+    "Description": "error while writing...(The process cannot access the file because it is being used by another process)",
+    "Regex": "error while writing.+(The process cannot access the file because it is being used by another process)[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 137,
+    "Description": "no enclosing instance of ... is in scope",
+    "Regex": "no enclosing instance of type.+is in scope[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 138,
+    "Description": "type parameter ... is not within its bound",
+    "Regex": "type parameter.+is not within its bound[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 139,
+    "Description": "... cannot be inherited with different arguments",
+    "Regex": ".+cannot be inherited with different arguments[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 140,
+    "Description": "The compiler does not appear to be available",
+    "Regex": "The compiler does not appear to be available[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 141,
+    "Description": "error while writing ...: No space left on device",
+    "Regex": "error while writing.+: No space left on device[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 142,
+    "Description": "invalid method reference, non-static method ... cannot be referenced from a static context",
+    "Regex": "invalid method reference[ \\t\\n]*non-static method.+cannot be referenced from a static context[\\s\\S]*"
+  },
+  {
+    "Category": 6,
+    "Type": 143,
+    "Description": "cannot infer type arguments for ...",
+    "Regex": "cannot infer type arguments for[\\s\\S]*"
+  }
+]
