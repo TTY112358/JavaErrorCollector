@@ -160,7 +160,7 @@ public class AnalyzeMission {
             Statement st;
             ResultSet rs;
             try {
-                conn = DriverManager.getConnection("jdbc:mysql://localhost:" + MainSecret.localPort + "/blackbox_production", MainSecret.dbUsername, MainSecret.dbPassword);
+                conn = DriverManager.getConnection("jdbc:mysql://localhost:" + MainPublic.localPort + "/blackbox_production", MainPublic.dbUsername, MainPublic.dbPassword);
                 st = conn.createStatement();
                 for (int i = 0; i < dataSetSize; i++) {
                     String sql = "select * from(select session_id, country_code FROM (blackbox_production.master_events left join geocoded.geocodes on blackbox_production.master_events.client_address_id = geocoded.geocodes.client_address_id) where master_events.name = 'bluej_start' and master_events.created_at between '" + sdf.format(new Date(startTime.getTime() + (long) i * 24 * 60 * 60 * 1000)) + "' and '" + sdf.format(new Date(startTime.getTime() + (long) (i + 1) * 24 * 60 * 60 * 1000)) + "') as M where M.country_code = '" + countryCode + "';";
@@ -193,7 +193,7 @@ public class AnalyzeMission {
             Statement st;
             ResultSet rs;
             try {
-                conn = DriverManager.getConnection("jdbc:mysql://localhost:" + MainSecret.localPort + "/blackbox_production", MainSecret.dbUsername, MainSecret.dbPassword);
+                conn = DriverManager.getConnection("jdbc:mysql://localhost:" + MainPublic.localPort + "/blackbox_production", MainPublic.dbUsername, MainPublic.dbPassword);
                 st = conn.createStatement();
                 while (true) {
                     if (isOver1) {
